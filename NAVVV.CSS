@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 600px;
+    height: 70px;
+    background-color: #1a2778;
+    position: relative;
+    top: 15px;
+    margin: auto;
+    border-radius: 30px 0px 30px 0px;
+    transition: .7s;
+    border: 5px solid black;
+}
+
+.nav:hover{
+    background-color: black;
+    border-radius: 0px 40px 0px 40px;
+    border: 5px solid gray;
+}
+
+.nav ul{
+    position: absolute;
+    top: 25px;
+    left: 90px;
+
+}
+
+.nav ul li{
+    display: inline;
+    position: relative;
+    
+}
+
+.nav ul li a{
+    background-color: blueviolet;
+    border-radius: 0px 7px 0px 7px;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    transition: .5s;
+    border: 1px solid blueviolet;
+}
+
+.nav ul li:hover a{
+    background-color: aqua;
+    color: black;
+    border-radius: 0px 17px 0px 17px;
+    border: 1px solid black;
+}
+
+.nav ul li ul li {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    display: none;
+}
+
+.nav ul li:hover ul li{
+    display: block;
+}
+
+.nav ul li ul{
+    left: 0px;
+    position: absolute;
+    top: 30px;
+}
+
+.nav ul li ul li ul{
+    left: 60px;
+    top: auto;
+}
+
+
+.nav ul li ul li ul{
+    display: none;
+}
+
+.nav ul li ul li:hover ul{
+    display: block;
+}
+
+.widd{
+    width: 200px;
+    top: 20px;
+}
+
+.nav ul li ul:hover li a{
+    background-color: rosybrown;
+    border-radius: 10px 0px 10px 0px ;
+    padding: 8px;
+}
+
+.nav ul li ul li ul:hover li a{
+    background-color: aqua;
+    color: white;
+    border-radius: 0px 10px 0px 10px;
+}
+

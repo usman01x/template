@@ -1,0 +1,21 @@
+.big{
+    background-color: aqua;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-content: center;
+    
+
+}
+
+.box{
+    background-color: black;
+    width: 90px;
+    height: 90px;
+}
+
+.box:hover.box~.box{
+    background-color: antiquewhite;
+}

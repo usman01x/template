@@ -1,0 +1,56 @@
+*{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.niv{
+    width: 500px;
+    height: 80px;
+    background-color: lightgreen;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.niv ul{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+.niv ul li{
+    display: inline;
+    position: relative;
+}
+
+.niv ul li a{
+    background-color: pink;
+    padding: 10px;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition: .6s;
+}
+
+.niv ul li ul li{
+    display: block;
+}
+
+.niv ul li:hover a{
+    border-radius: 15px;
+    background-color: rgba(15, 14, 14, 0.753);
+    color: white;
+}
+
+.niv ul li ul{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    /* display: none; */
+}
+
+
+

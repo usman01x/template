@@ -1,0 +1,26 @@
+.center{
+    text-align: center; color: white; margin-left: 30px; margin-right: 30px;
+}
+
+
+.BGC{
+    background-color: rgb(230, 144, 7); border: 3px solid green;
+}
+
+h1{
+    background-color: rgba(118, 20, 159, 0.746); border: 3px solid red; padding: 20px;
+}
+
+.AA{
+    border-radius: 10px ; padding: 20px ; color: aliceblue ; font-weight: bold; font-size: 25px; font-family: serif;
+}
+.btMR{
+    margin-bottom: 50px;
+}
+.topMR{
+    margin-top: 50px;
+}
+
+.LF{
+    margin-left: 14% ; margin-right: 14%;
+}

@@ -1,0 +1,153 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/23027.jpg'); background-size: cover;
+    margin: auto;
+    perspective: 900px;
+    
+    
+}
+
+.container div {
+    width: 300px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.815);
+    float: left;
+    transform-origin: top left;
+    transition: 1s;
+}
+
+.container div+ div{
+    width: 300px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.925);
+    transform-origin: top right;
+    float: left;
+    transition: 1s;
+}
+
+
+.container:hover .box{
+    transform: rotateY(90deg);
+
+}
+
+.container:hover .box2{
+    transform: rotateY(-90deg);
+}
+
+
+
+
+ .box0{
+    width: 300px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyB9F4FOOGkZUCe0wOhSr5qskIYHp3VElpmRlqqSxkyA&s=10');
+    margin: auto;
+    perspective: 900px;
+ }
+
+ .door{
+    width: 150px;
+    height: 400px;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3LhxxDOkGYtPNzWm_Aebxt_-bDFaEgfJrNgITFt6KJvInCUJJFIIfC40A&s=10');
+    float: right; background-size: cover;
+    float: left;
+    transform-origin: top left;
+    transition: 1s;
+ }
+
+
+ .door2{
+    width: 150px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3LhxxDOkGYtPNzWm_Aebxt_-bDFaEgfJrNgITFt6KJvInCUJJFIIfC40A&s=10');
+    float: right; background-size: cover; 
+    transform-origin: top right;
+    transition: 1s;
+    
+ }
+
+
+ .box0:hover .door{
+    transform: translateX(-250px)
+ }
+
+ .box0:hover .door2{
+    transform:  translateX(250px)
+ }
+
+
+
+.lo{
+    width: 10px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-left: -30px;
+    float: left;
+    transform-origin: top right;
+    transform-origin: top left;
+    transition: 1s;
+}
+
+
+.boxx:hover .lo{
+    transform: scale(23)
+}
+
+
+.boxx{
+    width: 200px;
+    height: 200px;
+    background-image: url('https://static.wikia.nocookie.net/disney/images/2/21/Profile_-_Iron_Man.jpg/revision/latest?cb=20260311200331'); background-size: cover;
+    overflow: hidden;
+    perspective: 800px;
+    margin: auto;
+}
+
+
+
+
+
+ .box11{
+    width: 300px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyB9F4FOOGkZUCe0wOhSr5qskIYHp3VElpmRlqqSxkyA&s=10');
+    margin: auto;
+    perspective: 900px;
+ }
+
+ .door11{
+    width: 150px;
+    height: 400px;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3LhxxDOkGYtPNzWm_Aebxt_-bDFaEgfJrNgITFt6KJvInCUJJFIIfC40A&s=10');
+    float: right; background-size: cover;
+    float: left;
+    transform-origin: top left;
+    transition: 2s;
+    transform-origin: top right;
+ }
+
+
+ .door12{
+    width: 150px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3LhxxDOkGYtPNzWm_Aebxt_-bDFaEgfJrNgITFt6KJvInCUJJFIIfC40A&s=10');
+    float: right; background-size: cover;
+    transform-origin: top right;
+    transition: 2s;
+    transform-origin: top left;
+    
+ }
+
+
+
+
+ .box11:hover .door11{
+    transform: rotate(90deg);
+ }
+
+ .box11:hover .door12{
+    transform: rotate(-90deg);
+ }
+

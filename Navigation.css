@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type:  none;
+}
+
+.nav{
+    margin: auto;
+    width: 700px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: lightgray;
+    border: 3px solid black;
+    border-radius: 25px 0px 25px 0px;
+    position: relative;
+    transition: .7s;
+}
+
+.nav:hover{
+    background-color: black;
+    border: 3px solid blueviolet;
+    border-radius: 0px 25px 0px 25px;
+
+}
+
+.nav ul{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+
+.nav ul li a{
+    background-color:blueviolet;
+    border: 1px solid black;
+    border-radius: 7px 0px 7px 0px;
+    padding: 10px;
+    color: black;
+    transition: .5s;
+}
+
+.nav ul li{
+    display: inline;
+    position: relative;
+}
+
+.nav ul li:hover a{
+    background-color: aqua;
+    border-radius: 0px 7px 0px 7px;
+}
+
+.nav ul li ul{
+    left: 0px;
+    position: absolute;
+}
+
+.nav ul li ul li{
+    display: block;
+    margin-top: 12px;
+    position: relative;
+}
+
+.nav ul li ul:hover li a{
+    background-color: blueviolet;
+    border-radius: 10px 0px 10px 0px;
+}
+.nav ul li ul:hover li a{
+    background-color: lightgray;
+    border-radius: 10px 0px 10px 0px ;
+    padding: 8px;
+}
+
+.nav ul li ul li a:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.nav ul li ul{
+    display: none;
+}
+
+.nav ul li:hover ul{
+    display: block;
+}
+
+.nav ul li ul li ul{
+    left: 60px;
+
+}
+
+.nav ul li ul li ul a{
+    display: none;
+}
+
+.nav ul li ul li:hover ul a{
+    display: block;
+}
+
+.nav ul li ul li ul li{
+    margin-top: -15px;
+}
+
+.nav ul li ul li ul li{
+    display: none;
+}
+
+.nav ul li ul li:hover ul li{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.nav ul li ul li ul li:hover .hide{
+    display: block;
+}
+
+.nav ul li ul li ul li ul li{
+    width: 170px;
+    left: 0px;
+}
+
+.wid{
+    width: 180px;
+    top: 20px;
+}

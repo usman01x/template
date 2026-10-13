@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.nav{
+    background-color: lightgray;
+    height: 60px;
+    position: relative;
+}
+
+.nav ul{
+    margin-top: 20px;
+    position: absolute;
+    
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.nav ul li a{
+    color: white;
+    background-color: cadetblue;
+    padding: 12px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    position: relative;
+    transition: .5s;
+}
+
+
+.nav ul li a:hover{
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.nav ul li ul li{
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+
+}
+
+
+.nav ul li ul{
+    left: 0px;
+    top: 5px;
+    position: absolute;
+}
+     
+.nav ul li ul li{
+    left: -20px;
+
+}
+
+.nav ul li ul {
+    display: none;
+}
+
+.nav ul li:hover ul{
+    display: block;
+}
+
+.nav > ul > li > ul > li > ul >li{
+    top: -74px;
+    display: none;
+}
+
+.nav > ul > li > ul > li:hover ul >li{
+    left: 76px;
+    top: -40px;
+    display: block;
+}

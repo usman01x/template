@@ -1,0 +1,136 @@
+.container{
+    background-color: white;
+    width: 1350px;
+    height: 1000px
+    
+}
+
+
+
+.whitebox{
+    background-color: lightgray;
+    float: left;
+    width: 1350px;
+    height: 60px;  
+}
+
+.box1{
+    padding: 20px;
+    word-spacing: 20px;
+    position: 
+    background-color: white;
+    border: 1px solid gray;
+    width: 1350px;
+    z-index: 1;
+
+
+}
+
+.whitebox2{
+    border: 1px solid gray;
+    width: 1350px;
+    height: 40px;
+    float: left;
+    position: static;
+}
+
+.box2{
+    float: right;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    position: static;
+}
+
+
+.whitebox3{
+    width: 1350px;
+    height: 600px;
+    background-color: white;
+}
+
+.box3{
+    width: 400px;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: -40px;
+    border-radius: 10px;
+    float: left;
+    background-image: url('https://images.alphacoders.com/140/thumb-1920-1401601.jpg'); background-size: cover;
+    transform-origin: top right;
+
+}
+
+
+.box4{
+    width: 400px;
+    height: 400px;
+    background-image: url('https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/5/58/Doma_colored_body_3.png/revision/latest?cb=20200526231706'); background-size: cover;
+    border: 1px solid gray;
+
+    border-radius: 10px;
+    margin-left: -40px;
+    margin-top: 10px;
+    float: left;
+    clear: both;
+
+}
+
+.box5{
+    width: 700px;
+    height: 660px;
+    float: left;
+    margin-top: -248px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-image: url('https://images2.alphacoders.com/139/thumb-1920-1399041.jpg'); background-size: cover;
+    transition: 0.5s;
+}
+
+
+.box6{
+    width: 300px;
+    height: 660px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpP9mX3absQh63wYczr2yG86RNO5rFdv8AkpP-4PzHO-GOxBz6cTC-DL8&s=10'); background-size: cover;
+    float: right;
+    margin-top: -658px;
+    margin-left: 20px;
+    margin-right: -50px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box5:hover{
+    transform: scale(1.05);
+}
